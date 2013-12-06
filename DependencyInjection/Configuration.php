@@ -18,7 +18,7 @@ class Configuration implements ConfigurationInterface {
      */
     public function getConfigTreeBuilder() {
         $treeBuilder = new TreeBuilder();
-        $rootNode = $treeBuilder->root('amf_four_square');
+        $rootNode = $treeBuilder->root('amf_foursquare');
         
         $this->addSettingsSection($rootNode);
 
