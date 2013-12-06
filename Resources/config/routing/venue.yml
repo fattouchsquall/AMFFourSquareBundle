@@ -1,0 +1,5 @@
+_amf_foursquare_venue_update_perimeter:
+    pattern: /search/{latitude}/{longitude}
+    defaults: { _controller: "AMFFourSquareBundle:Venue:search", latitude:"", longitude:"" }
+    options:
+        expose: true

@@ -1,0 +1,3 @@
+amf_main_favorites:
+    resource: "@AMFFourSquareBundle/Resources/config/routing/venue.yml"
+    prefix:   /venue
