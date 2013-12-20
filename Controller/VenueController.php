@@ -55,8 +55,6 @@ class VenueController extends ContainerAware
      */
     public function addAction($name)
     {
-        $request = $this->container->get('request');
-        
         $parameters = array('name' => $name);
         $foursquareService = $this->container->get('amf_foursquare.service');
         $placesJson        = $foursquareService->performPublicRequest("venues/add",

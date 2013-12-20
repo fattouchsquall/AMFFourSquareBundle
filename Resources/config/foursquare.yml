@@ -4,4 +4,5 @@ parameters:
 services:
     amf_foursquare.service:
         class: %amf_foursquare.service.class%
-        arguments: [ %amf_foursquare.settings.client_id% , %amf_foursquare.settings.client_secret% ,  %amf_foursquare.settings.locale%, %amf_foursquare.settings.redirect_uri% , %amf_foursquare.settings.version% ]
+        scope: request
+        arguments: [ "@request", %amf_foursquare.settings.client_id% , %amf_foursquare.settings.client_secret% ,  %amf_foursquare.settings.locale%, %amf_foursquare.settings.redirect_uri% , %amf_foursquare.settings.version% ]
