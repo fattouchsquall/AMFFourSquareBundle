@@ -3,20 +3,20 @@
 /**
  * Provides an abstraction for making a requests to the Foursquare API.
  * 
- * @package FourSquareBundle
+ * @package AMFFourSquareBundle
  * @subpackage Service
  * @author Mohamed Amine Fattouch <amine.fattouch@gmail.com>
  */
 
 namespace AMF\FourSquareBundle\Service;
 
-use Nordnet\LoginBundle\Model\HttpMethodConstants;
-use Nordnet\LoginBundle\Model\UrlConstants;
+use AMF\FourSquareBundle\StaticModel\HttpMethodConstants;
+use AMF\FourSquareBundle\StaticModel\UrlConstants;
 
 /**
  * Provides an abstraction for making a requests to the Foursquare API.
  * 
- * @package FourSquareBundle
+ * @package AMFFourSquareBundle
  * @subpackage Service
  * @author Mohamed Amine Fattouch <amine.fattouch@gmail.com>
  */
